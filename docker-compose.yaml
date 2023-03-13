@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-    class_build:
+    deploy-test:
         build:
             context: .
             dockerfile: Dockerfile
