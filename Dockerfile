@@ -11,7 +11,7 @@ COPY ./yarn.lock /class_build/
 RUN yarn install
 
 # RUN mkdir class_build => COPY할 때 자동으로 만들어짐
-COPY . /class_build
+COPY . /class_build/
 WORKDIR /class_build/
 
 RUN yarn build
